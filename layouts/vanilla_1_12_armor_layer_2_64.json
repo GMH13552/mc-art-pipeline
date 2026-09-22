@@ -1,0 +1,53 @@
+{
+ "format": "minecraft_1_12_modelrenderer_cube_uv",
+ "source": "net.minecraft.client.model.ModelBiped armour (1.12.2), layer 2",
+ "texture_width": 64,
+ "texture_height": 32,
+ "notes": "Cube UV offsets follow the 1.12 ModelBiped armour renderer. Layer 2 carries only the leggings: the waist and the leg boxes. The atlas is 64x32 even though the leggings content stops at x=40. Front preview coordinates are a diagnostic orthographic projection, not a replacement for the in-game model.",
+ "cubes": [
+  {
+   "id": "body",
+   "part_id": "body",
+   "u": 16,
+   "v": 16,
+   "width": 8,
+   "height": 12,
+   "depth": 4,
+   "preview_instances": [
+    [
+     4,
+     8,
+     8,
+     12
+    ]
+   ],
+   "preview_layer": 1,
+   "notes": "ModelBiped.bipedBody.addBox(-4,0,-2,8,12,4) - leggings waist"
+  },
+  {
+   "id": "legs",
+   "part_id": "legs",
+   "u": 0,
+   "v": 16,
+   "width": 4,
+   "height": 12,
+   "depth": 4,
+   "preview_instances": [
+    [
+     4,
+     20,
+     4,
+     12
+    ],
+    [
+     8,
+     20,
+     4,
+     12
+    ]
+   ],
+   "preview_layer": 2,
+   "notes": "ModelBiped.bipedLeg.addBox(-2,0,-2,4,12,4) - leggings legs"
+  }
+ ]
+}

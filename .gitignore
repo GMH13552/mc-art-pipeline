@@ -1,0 +1,13 @@
+# Generated runs: prompts, previews, sprites. Never source.
+outputs/
+quality/
+
+# Materialised Mojang/mod textures. Rebuild with:
+#   python3 -m studio_next index-vanilla --source <jar>
+references/
+
+.venv/
+.tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/

@@ -1,0 +1,13 @@
+{
+  "format": "minecraft_block_single_tile",
+  "texture_width": 16,
+  "texture_height": 16,
+  "regions": [
+    {"id": "surface_top", "part_id": "surface", "bbox": [0, 0, 16, 16], "face": "top", "required": true, "notes": "shared block texture"},
+    {"id": "surface_bottom", "part_id": "surface", "bbox": [0, 0, 16, 16], "face": "bottom", "required": true, "notes": "shared block texture"},
+    {"id": "surface_front", "part_id": "surface", "bbox": [0, 0, 16, 16], "face": "front", "required": true, "notes": "shared block texture"},
+    {"id": "surface_back", "part_id": "surface", "bbox": [0, 0, 16, 16], "face": "back", "required": true, "notes": "shared block texture"},
+    {"id": "surface_left", "part_id": "surface", "bbox": [0, 0, 16, 16], "face": "left", "required": true, "notes": "shared block texture"},
+    {"id": "surface_right", "part_id": "surface", "bbox": [0, 0, 16, 16], "face": "right", "required": true, "notes": "shared block texture"}
+  ]
+}
